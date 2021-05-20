@@ -1,7 +1,7 @@
 {
   "name": "ku-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "a ku cli",
   "bin": {
     "ku": "./bin/ku.js"
   },
@@ -10,8 +10,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "nodejs",
+    "ku-cli"
+  ],
+  "author": "zjfcool",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
