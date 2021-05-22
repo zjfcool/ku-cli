@@ -9,12 +9,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjfcool/ku-cli.git"
+  },
+  "homepage": "https://github.com/zjfcool/ku-cli#readme",
   "type": "module",
   "keywords": [
     "cli",
     "nodejs",
     "ku-cli"
   ],
+  "engines": {
+    "node": ">=13.2.0"
+  },
   "author": "zjfcool",
   "license": "ISC",
   "dependencies": {
